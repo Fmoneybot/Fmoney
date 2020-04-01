@@ -1,0 +1,90 @@
+body
+{
+	font-family: 'ABeeZee';font-size: 22px;
+	margin: auto;
+	background-image: url('img/mainlogobk.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+::selection 
+{
+   background: transparent;
+}
+::-moz-selection 
+{
+   background: transparent;
+}
+
+#mainlb
+{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1
+{
+	color: white;
+	margin-top: 0px;
+}
+
+h3
+{
+	background-color: rgba(120, 220, 120, 0.6);
+	color: black;
+	margin-top: -20px;
+}
+
+#main1
+{
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	text-align: center;
+}
+
+#m1
+{
+	background-color: rgba(120, 220, 120, 0.6);
+	color: white;
+	text-align: center;
+}
+
+#l1
+{
+	background-color: #68D880;
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+#l1:hover
+{
+	background-color: #88F8A0;
+}
+
+h5
+{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+footer
+{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	padding: 50px;
+	font-size: 15px;
+}
+
+#l2
+{
+	text-decoration: none;
+	color: green;
+}
+#l2:hover
+{
+	color: white;
+}
